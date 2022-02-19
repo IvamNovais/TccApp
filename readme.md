@@ -5,7 +5,6 @@
 |Rota| metodo  |
 |----|---------|
 |"/" |POST     |
-| 
 
 ### Modelo json
 
