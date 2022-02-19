@@ -15,6 +15,5 @@ conversas = [
 ]
 Trainer = ListTrainer(chatbot)
 Trainer.train(conversas)
-while(True):
-  resposta = chatbot.get_response(input("usuario: "))
-  print(resposta)
+def getResposta(pergunta):
+  return chatbot.get_response(pergunta)
